@@ -1,3 +1,4 @@
+
 /*
   Ви маєте форму реєстрації користувачів. 
   Іноді потрібно попередньо заповнити форму даними користувача для оновлення його профілю. 
@@ -12,9 +13,9 @@ type User = {
   surname: string;
   email: string;
   password: string;
-}
+};
 
-function createOrUpdateUser(initialValues: User) {
+function createOrUpdateUser(initialValues: Partial<User>) {
   // Оновлення користувача
 }
 
